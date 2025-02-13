@@ -42,8 +42,6 @@ Thumbs.db
 wp-content/plugins/*
 !wp-content/plugins/mi-plugin-personalizado/
 
-wp-content/themes/*
-!wp-content/themes/mi-tema-personalizado/
 
 # ⚡ Opcional: Si usas Lando, ignorar su configuración
 .lando.yml

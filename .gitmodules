@@ -1,3 +1,0 @@
-[submodule "wordpress"]
-	path = wordpress
-	url = git@github.com:jramma/sail-template.git
