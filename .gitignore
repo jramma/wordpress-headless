@@ -1,0 +1,50 @@
+# ⚡ Ignorar el núcleo de WordPress y archivos autogenerados
+wp-admin/
+wp-includes/
+
+# ⚡ Ignorar configuraciones sensibles y archivos críticos
+wp-config.php
+wp-config-sample.php
+.htaccess
+web.config
+
+# ⚡ Ignorar bases de datos y backups
+*.sql
+*.sqlite
+*.db
+*.bak
+*.backup
+*.old
+
+# ⚡ Ignorar logs y archivos temporales
+*.log
+debug.log
+wp-content/debug.log
+wp-content/upgrade/
+wp-content/uploads/wp-content/cache/
+
+# ⚡ Ignorar dependencias de Composer y Node.js
+vendor/
+composer.lock
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ⚡ Ignorar archivos del IDE y de sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ⚡ Mantener solo los plugins y temas personalizados
+wp-content/plugins/*
+!wp-content/plugins/mi-plugin-personalizado/
+
+wp-content/themes/*
+!wp-content/themes/mi-tema-personalizado/
+
+# ⚡ Opcional: Si usas Lando, ignorar su configuración
+.lando.yml
+.lando.db
