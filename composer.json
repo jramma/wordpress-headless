@@ -1,0 +1,17 @@
+{
+    "name": "jramma/public",
+    "autoload": {
+        "psr-4": {
+            "Jramma\\Public\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jramma",
+            "email": "jrmasip097@gmail.com"
+        }
+    ],
+    "require": {
+        "log1x/acf-composer": "^3.3"
+    }
+}

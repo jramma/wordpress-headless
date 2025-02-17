@@ -10,7 +10,7 @@
  * @since Twenty Twenty-Five 1.0
  */
 
-
+// HEADLESS WORDPRESS
 
 function disable_wp_frontend()
 {
@@ -22,6 +22,12 @@ function disable_wp_frontend()
 	exit;
 }
 add_action('template_redirect', 'disable_wp_frontend');
+
+// LOAD COMPOSER
+
+require_once get_template_directory() . '/vendor/autoload.php';
+
+
 
 // Adds theme support for post formats.
 if (! function_exists('twentytwentyfive_post_format_setup')) :
